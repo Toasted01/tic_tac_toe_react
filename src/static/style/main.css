@@ -1,0 +1,25 @@
+body { text-align: center; padding: 50px; margin: 0; overflow: hidden;}
+h1 { font-size: 50px; }
+body { font: 20px Helvetica, sans-serif; color: #333; }
+#article { display: block; text-align: left; width: auto; margin: 0 auto; }
+a { color: #dc8100; text-decoration: none; }
+a:hover { color: #333; text-decoration: none; }
+.square{
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.Row{
+  display: flex;
+}
+
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 100% of the viewport height */
+}
